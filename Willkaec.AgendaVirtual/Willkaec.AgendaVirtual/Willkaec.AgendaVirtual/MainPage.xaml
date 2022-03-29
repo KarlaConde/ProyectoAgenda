@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Willkaec.AgendaVirtual.MainPage">
+
+    <StackLayout  >
+        <WebView x:Name="webView" HeightRequest="1000" WidthRequest="1000" 
+                 Navigated="webviewNavigated" Navigating="webviewNavigating"
+                 
+                 >
+
+            <!--<WebView.Behaviors>
+                <behaviors:WebViewBrowserLinkBehavior LaunchMode="External"
+                                                      TitleMode="Default"
+                                                      ToolbarBackgroundColor="{DynamicResource BrowserTitleBackgroundColor}"
+                                                      ToolbarForegroundColor="{DynamicResource BrowserTitleForegroundColor}" />
+            </WebView.Behaviors>-->
+        </WebView>
+
+
+    </StackLayout>
+
+</ContentPage>
