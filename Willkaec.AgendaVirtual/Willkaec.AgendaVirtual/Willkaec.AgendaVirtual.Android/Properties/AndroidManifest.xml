@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.willkaec.agendavirtual" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.willkaec.ejecutiva" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="30" />
-	<application android:label="Willkaec.AgendaVirtual.Android" android:theme="@style/MainTheme" android:icon="@mipmap/ic_launcher"></application>
+	<application android:theme="@style/MainTheme" android:icon="@mipmap/ic_launcher" android:label="Ejecutiva"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
